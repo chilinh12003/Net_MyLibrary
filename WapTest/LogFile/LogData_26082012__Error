@@ -1,0 +1,2 @@
+﻿26/08/2012 - 09:51:47 || 2yvs2h4530b0pn45erfu5gnw || D:\Projects\DLL Libraries\Source\MyBase\MyWap\MyWapBase.cs || GetScrenSize || 317 || 17 || Unable to cast object of type 'System.Web.Mobile.MobileCapabilities' to type 'FiftyOne.Foundation.Mobile.Detection.Wurfl.MobileCapabilities'. ||  || 
+-----------------------------------------------------------

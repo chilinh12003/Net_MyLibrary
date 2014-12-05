@@ -1,0 +1,26 @@
+﻿16/12/2010 - 14:28:18 || D:\Projects\DLL Libraries\Source\MyUtility\MyXML.cs || GetXMLData || 54 || 9 || Could not find a part of the path 'c:\windows\system32\inetsrv\~\App_Data\wurfl.xml'. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+16/12/2010 - 14:28:18 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 18 || 16 || Could not find a part of the path 'c:\windows\system32\inetsrv\~\App_Data\wurfl.xml'. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 15:02:19 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 31 || 21 || Column 'divice_id' does not belong to table device. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 15:03:17 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 31 || 21 || Column 'divice_id' does not belong to table device. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 15:03:59 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 31 || 21 || Column 'divice_Id' does not belong to table device. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 15:06:28 || D:\Projects\DLL Libraries\Source\MyConnect\SQLServer\MyExecuteData.cs || ExecQuery || 59 || 9 || Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+16/12/2010 - 15:06:28 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 40 || 25 || Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 15:56:41 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 51 || 25 || DataTable already belongs to this DataSet. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 16:02:47 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 51 || 25 || DataTable already belongs to this DataSet. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 16:19:31 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 43 || 21 || Column 'product_info' does not belong to table group. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 16:21:04 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 43 || 21 || Column 'product_info' does not belong to table group. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 16:21:57 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 43 || 21 || Column 'product_info' does not belong to table group. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
+16/12/2010 - 16:23:48 || D:\Projects\DLL Libraries\Source\WebTest\Default.aspx.cs || Page_Load || 43 || 21 || Column 'product_info' does not belong to table group. || Có lỗi xảy ra trong quá trình xóa dữ liệu! || Chilinh
+-----------------------------------------------------------
