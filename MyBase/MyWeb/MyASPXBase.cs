@@ -11,7 +11,8 @@ namespace MyBase.MyWeb
     /// </summary>
     public class MyASPXBase : Page
     {
-        MyLog mLog = new MyLog(typeof(MyASPXBase));
+        public MyLog mLog = new MyLog(typeof(MyASPXBase));
+
         /// <summary>
         /// Mã của trang, dung để phần quyền cho trang
         /// </summary>

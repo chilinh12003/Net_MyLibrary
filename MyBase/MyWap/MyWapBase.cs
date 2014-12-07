@@ -13,7 +13,7 @@ namespace MyBase.MyWap
     /// </summary>
     public class MyWapBase : IHttpHandler, IRequiresSessionState
     {
-        MyLog mLog = new MyLog(typeof(MyWapBase));
+        public MyLog mLog = new MyLog(typeof(MyWapBase));
 
         public const String WurflDataFilePath = "~/App_Data/wurfl.zip";
         public const String WurflPatchFilePath = "~/App_Data/web_browsers_patch.xml";
@@ -175,7 +175,7 @@ namespace MyBase.MyWap
                 }
                 else
                 {
-                    return "";
+                    return Session.SessionID;
                 }
             }
             set { Session["SessionID"] = value; }
@@ -307,8 +307,8 @@ namespace MyBase.MyWap
             {
                 if (AllowLogVisit)
                 {
-                    string strFormat = "Width:{0} || Heigth:{1} || IP:{2} || MSISDN:{3} || MySessionID:{4} || Link{5} || ModelName:{6} || UserAgent:{7} || OS:{8} || PreviusURL:{9}";
-                    string strContent = string.Format(strFormat, ScreenWidth.ToString(), ScreenHeight.ToString(), IP, MSISDN, SessionID, Request.Url.ToString(), BranchName + " " + ModelName, UserAgent, OS, PreviusURL);
+                    string strFormat = "REQUEST ---> MySessionID:{0} || Width:{1} || Heigth:{2} || IP:{3} || MSISDN:{4} || Link{5} || ModelName:{6} || UserAgent:{7} || OS:{8} || PreviusURL:{9}";
+                    string strContent = string.Format(strFormat, SessionID, ScreenWidth.ToString(), ScreenHeight.ToString(), IP, MSISDN, Request.Url.ToString(), BranchName + " " + ModelName, UserAgent, OS, PreviusURL);
                     mLog.Info(strContent);
                 }
             }

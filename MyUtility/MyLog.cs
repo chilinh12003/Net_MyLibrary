@@ -16,10 +16,20 @@ namespace MyUtility
         {
             Log.Debug(Message);
         }
+        public void Debug(string Prefix, string Message)
+        {
+            Log.Debug(Prefix + " " + Message);
+        }
+
         public void Info(string Message)
         {
             Log.Info(Message);
         }
+        public void Info(string Prefix,string Message)
+        {
+            Log.Info(Prefix + " " + Message);
+        }
+
         public void Warn(string Message)
         {
             Log.Warn(Message);
@@ -27,11 +37,27 @@ namespace MyUtility
 
         public void Error(Exception Ex)
         {
-            Log.Error(Ex);
+            if (MyCurrent.CurrentPage != null && MyCurrent.CurrentPage.Session != null)
+            {
+                Log.Error(MyCurrent.CurrentPage.Session.SessionID,Ex);
+            }
+            else
+            {
+                Log.Error(Ex);
+            }
+            
         }
         public void Error(string Message, Exception Ex)
         {
-            Log.Error(Message, Ex);
+            if (MyCurrent.CurrentPage != null && MyCurrent.CurrentPage.Session != null)
+            {
+                Log.Error(MyCurrent.CurrentPage.Session.SessionID+"|"+Message, Ex);
+            }
+            else
+            {
+                Log.Error(Message, Ex);
+            }
+            
         }
         public void Error(string Message, bool ShowMessage, Exception Ex)
         {
@@ -39,7 +65,15 @@ namespace MyUtility
             {
                 MyMessage.ShowError(Message);
             }
-            Log.Error(Message, Ex);
+
+            if (MyCurrent.CurrentPage != null && MyCurrent.CurrentPage.Session != null)
+            {
+                Log.Error(MyCurrent.CurrentPage.Session.SessionID + "|" + Message, Ex);
+            }
+            else
+            {
+                Log.Error(Message, Ex);
+            }
         }
         public void Fatal(Exception Ex)
         {

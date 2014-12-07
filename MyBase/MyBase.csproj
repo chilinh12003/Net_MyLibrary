@@ -112,7 +112,6 @@
     <Content Include="WURFL AGPL License.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Data\wurfl-latest.zip" />
     <None Include="App_Readme\WURFL Quick Guide_v1_5.pdf" />
     <None Include="App_Readme\WURFL-v1.5.2.chm" />
     <None Include="Introspector\Introspector.ashx" />
@@ -124,6 +123,9 @@
       <Project>{dba986c4-e77f-4202-b30c-7b3fc248921b}</Project>
       <Name>MyUtility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

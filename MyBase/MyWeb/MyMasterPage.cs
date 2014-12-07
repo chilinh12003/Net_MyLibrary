@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using MyUtility;
 namespace MyBase.MyWeb
 {
     /// <summary>
@@ -9,6 +9,8 @@ namespace MyBase.MyWeb
     /// </summary>
     public class MyMasterPage : System.Web.UI.MasterPage
     {
+        public MyLog mLog = new MyLog(typeof(MyMasterPage));
+
         private string _ChildPageTitle = "Quản trị";
         /// <summary>
         /// Tên của trang con của trang masterpage

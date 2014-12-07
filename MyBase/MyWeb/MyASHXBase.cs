@@ -12,7 +12,7 @@ namespace MyBase.MyWeb
     /// </summary>
     public class MyASHXBase : IHttpHandler, IRequiresSessionState
     {
-        MyLog mLog = new MyLog(typeof(MyASHXBase));
+        public MyLog mLog = new MyLog(typeof(MyASHXBase));
         public HttpContext MyContext
         {
             get;
